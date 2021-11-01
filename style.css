@@ -1,0 +1,91 @@
+.userLabel{
+	font-family: courier;
+	font-size: 160%;
+}
+
+body
+{
+	background-image: url("pexels-anthony-794494.jpg");
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#buttonC{
+	background-image: linear-gradient(120deg, #02c4fe,#0d32fd,#e80c7d);
+}
+
+.btn-grad {background-image:linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d)}
+.btn-grad {
+   margin: 50px;
+   width: 150px;
+   height:50px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 300% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25%;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ #headinglabel{
+	 font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ #title{
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #btn_send {background-image:linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d)}
+#btn_send {
+   margin: 50px;
+   width: 150px;
+   height:50px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 300% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25%;
+ }
+
+ .btn_send:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;}
